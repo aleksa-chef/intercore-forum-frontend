@@ -1,0 +1,26 @@
+{
+  "name": "intercore",
+  "version": "1.0.0-beta1",
+  "description": "Web-sajt za sve programere, hakere i ljubitelje moderne tehnologije.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "forum",
+    "tehnologija",
+    "IT",
+    "programiranje",
+    "programming",
+    "eticko",
+    "hakovanje",
+    "web",
+    "web",
+    "design",
+    "dizajn",
+    "website",
+    "app"
+  ],
+  "author": "Aleksa Milanovic",
+  "license": "ISC"
+}

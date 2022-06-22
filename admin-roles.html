@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aleksa Milanovic">
+    <link rel="icon" type="image/x-icon" href="css/img/favicon-48px.png">
+    <link rel="stylesheet" href="css/admin-roles.css">
+    <title>InterCore | ROLOVI</title>
+</head>
+<body>
+    <!-- Admin Roles Section START -->
+    <div class="admin-roles-container">
+        <div class="admin-roles-header-row">
+            <img src="css/img/footer-logo.png" alt="Logo" class="logo">
+
+            <a href="logged-user.html" class="admin-logout-link">Odjava</a>
+        </div>
+
+        <form action="" class="admin-search-bar">
+            <input type="search" placeholder="Pretraži korisnike...">
+            <button class="search-user-btn"><img src="css/img/search-icon-blue.png" alt="Search"></button>
+        </form>
+
+        <!-- USERS CONTAINER START -->
+        <div class="users-container">
+
+            <!-- USER ROW START -->
+            <div class="user-row">
+                <div class="user-info">
+                    <img src="css/img/user-icon.png" alt="User" class="user-picture">
+
+                    <p class="user-name">Username</p>
+                    <p class="user-role">(korisnik)</p>
+                </div>
+
+                <select name="roles" id="userRoles" class="user-role-select">
+                    <option value="korisnik">Korisnik</option>
+                    <option value="mod">Mod</option>
+                    <option value="admin">Admin</option>
+                </select>
+            </div>
+            <!-- USER ROW FINISH -->
+
+        </div>
+        <!-- USERS CONTAINER FINISH -->
+
+        <div class="admin-main-menu">
+            <ul>
+                <li><a href="admin-roles.html" class="active">Rolovi</a></li>
+                <li><a href="admin-banned.html">Banovavi</a></li>
+                <li><a href="admin-remove.html">Brisanje</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Admin Roles Section FINISH -->
+
+
+
+    
+</body>
+</html>

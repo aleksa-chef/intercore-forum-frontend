@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aleksa Milanovic">
+    <link rel="icon" type="image/x-icon" href="css/img/favicon-48px.png">
+    <link rel="stylesheet" href="css/register.css">
+    <title>InterCore | REGISTRACIJA</title>
+</head>
+<body>
+    <!-- Register Section Start -->
+    <div class="register-container">
+        <div class="register-section">
+
+            <!-- Heading Start -->
+            <div class="img-holder">
+                <a href="index.html"><img src="css/img/register-login-logo.png" alt="Logo" class="register-logo"></a>
+            </div>
+
+            <h1 class="heading">Registracija</h1>
+            <!-- Heading Finish -->
+
+            <!-- REGISTER FORM START -->
+            <form action="logged-user.html" class="register-form">
+                
+                <div class="input-task relative-parent">
+                    <label for="username">Korisničko ime:</label>
+                    <input type="text" id="username" placeholder="Ime, nadimak">
+                    <a href="#" class="generate-btn">Generiši</a>
+                </div>
+
+                <div class="input-task">
+                    <label for="userEmail">Email:</label>
+                    <input type="email" id="userEmail" placeholder="primer@gmail.com">
+                </div>
+
+                <div class="input-task">
+                    <label for="userPassword">Lozinka:</label>
+                    <input type="password" id="userPassword" placeholder="Lozinka treba sadržati najmanje 8 karaktera.">
+                </div>
+
+                <div class="input-task">
+                    <label for="userConfirmedPassword">Potvrda lozinke:</label>
+                    <input type="password" id="userConfirmedPassword">
+                </div>
+
+                <div class="checkbox-task">
+                    <input type="checkbox" id="terms">
+                    <p for="terms">Prihvatam <a href="terms-of-use.html">uslove korišćenja</a> i <a href="privacy-policy.html">pravila privatnosti</a>.</p>
+                </div>
+
+                <div class="btn-wrapper">
+                    <button type="submit" class="register-btn">Registruj se</button>
+                </div>
+            </form>
+            <!-- REGISTER FORM FINISH -->
+
+            <p class="question">Imaš nalog? <a href="login.html">Prijavi se</a></p>
+
+            <p class="message">Budi prvi član InterCore-a!</p>
+
+        </div>
+    </div>
+    <!-- Register Section Finish -->
+</body>
+</html>
